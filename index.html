@@ -7,7 +7,7 @@
     <title>GBM Contracting</title>
 
     <!-- TAILWIND -->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="./js.js" defer></script>
 
@@ -20,6 +20,129 @@
 
 </head>
 <body class="text-gray-700 bg-white" style="font-family: 'Poppins', sans-serif">
-    
+    <!-- START NAVIGATION -->
+    <nav>
+        <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+            <a class="font-bold text-3xl lg:text-4xl" href="#">
+                GBM Contracting
+            </a>
+            <div class="block lg:hidden">
+                <button class="flex items-center justify-center px-3 py-2 border rounded-md text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none transition">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:block">
+                <ul class="min-w-[350px] inline-flex items-center justify-between">
+                    <li class="hover:text-black hover:underline underline-offset-4 transition"><a class="px-4 font-bold" href="/">Home</a></li>
+                    <li 
+                        class="hover:text-black hover:underline underline-offset-4 transition"><a class="px-4" href="#">Gallery</a></li>
+                    <li class="bg-gray-800 text-white font-bold rounded-md py-2 px-2 shadow-lg uppercase tracking-wider hover:bg-white hover:text-black transition"><a class="px-4" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVIGATION -->
+    <!-- HERO SECTION -->
+    <!-- linear-gradient(90deg, #667eea 0%, #764ba2 100%) -->
+    <div class="py-40" style="background: linear-gradient(135deg, #4b4b4b 0%, #b4ae3b 68%, #f2e831 100%);">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-2 text-white">
+                GBM Contracting Group
+            </h2>
+            <h3 class="text-2xl mb-8 text-gray-200">
+                Earthworks company with precision excavation capabilities based in Broken Hill, NSW.
+            </h3>
+
+            <button class="bg-white font-bold rounded-md py-2 px-4 shadow-lg uppercase tracking-wider hover:bg-gray-800 hover:text-white transition">
+                Get in touch
+            </button>
+        </div>
+    </div>
+    <!-- HERO SECTION END -->
+    <!-- ABOUT SECTION -->
+    <section class="container mx-auto px-6 p-10">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+            Why GBM?
+        </h2>
+        <div class="flex items-center flex-wrap mb-20">
+            <!-- FEATURE ONE -->
+            <div class="w-full flex items-center mb-10">
+                <div class="w-full md:w-1/2">
+                    <h4 class="text-3xl text-gray-800 font-bold mb-3">Lorem Ipsum</h4>
+                    <p class="text-gray-600 mb-8">Amet aute irure ipsum laborum consectetur culpa adipisicing.</p>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img src="./assets/placeholder.png" alt="Placeholder" />
+                </div>
+            </div>
+            
+            <!-- FEATURE TWO -->
+            <div class="w-full flex items-center mb-10">
+                <div class="w-full md:w-1/2">
+                    <img src="./assets/placeholder.png" alt="Placeholder" />
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h4 class="text-3xl text-gray-800 font-bold mb-3">Lorem Ipsum #2</h4>
+                    <p class="text-gray-600 mb-8">Amet aute irure ipsum laborum consectetur culpa adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+    <!-- TESTIMONIALS -->
+    <section class="bg-gray-200">
+        <div class="container mx-auto px-6 py-20">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+                Testimonials
+            </h2>
+            <div class="flex flex-wrap items-stretch">
+                <!-- TESTIMONIAL ONE -->
+                <div class="w-full md:w-1/3 px-2 mb-4">
+                    <div class="h-full bg-white rounded-md shadow py-4 px-2 flex flex-col">
+                        <p class="text-gray-800 text-base px-6 mb-5">Veniam exercitation anim adipisicing nostrud exercitation labore ullamco tempor do sunt ea in culpa mollit. Sint duis sunt ipsum aliquip mollit laborum officia consectetur et id dolore eu ad. Amet minim adipisicing officia nostrud sunt. Et est tempor deserunt qui dolor aliqua.</p>
+                        <p class="mt-auto text-gray-600 text-xs md:text-sm px-6 font-semibold">J Doe</p>
+                    </div>
+                </div>
+
+                <!-- TESTIMONIAL TWO -->
+                <div class="w-full md:w-1/3 px-2 mb-4">
+                    <div class="h-full bg-white rounded-md shadow py-4 px-2 flex flex-col">
+                        <p class="text-gray-800 text-base px-6 mb-5">Esse officia et laborum officia sit ullamco dolor. Amet qui ullamco commodo culpa ex ullamco. Enim aute aliqua anim occaecat sit quis. Minim id ullamco nisi irure nostrud.</p>
+                        <p class="mt-auto text-gray-600 text-xs md:text-sm px-6 font-semibold">S Murphy</p>
+                    </div>
+                </div>
+
+                <!-- TESTIMONIAL THREE -->
+                <div class="w-full md:w-1/3 px-2 mb-4">
+                    <div class="h-full bg-white rounded-md shadow py-4 px-2 flex flex-col">
+                        <p class="text-gray-800 text-base px-6 mb-5">Veniam exercitation anim adipisicing nostrud exercitation labore ullamco tempor do sunt ea in culpa mollit. Sint duis sunt ipsum aliquip mollit laborum officia consectetur et id dolore eu ad. Amet minim adipisicing officia nostrud sunt. Et est tempor deserunt qui dolor aliqua.</p>
+                        <p class="mt-auto text-gray-600 text-xs md:text-sm px-6 font-semibold">M Matthews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIALS -->
+    <!-- CTA -->
+    <section style="background-color: #4b4b4b">
+        <div class="container mx-auto px-6 text-center py-20">
+            <h2 class="mb-6 text-4xl font-bold text-center text-white">
+                Got a Project?
+            </h2>
+            <h3 class="my-4 text-2xl text-white font-semibold">
+                Get in Touch!
+            </h3>
+            <p class="text-white text-xl font-light">
+                Labore occaecat laboris pariatur excepteur eu commodo dolor. Aliquip minim tempor sit in ea quis consectetur commodo excepteur ipsum ea. Sint ipsum ad culpa nisi ut proident laborum tempor minim est minim est minim esse. Ea eiusmod consectetur consequat incididunt voluptate qui non ex ea anim aliquip. Enim occaecat est consequat aliquip ipsum consequat sit veniam velit incididunt ad. Sit tempor labore voluptate est sint id velit dolore do.
+            </p>
+            <button class="my-10 bg-white font-bold rounded-md py-2 px-4 shadow-lg uppercase tracking-wider hover:bg-gray-800 hover:text-white transition">
+                Contact Us
+            </button>
+        </div>
+    </section>
+    <!-- END CTA -->
 </body>
 </html>
