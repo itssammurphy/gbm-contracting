@@ -21,14 +21,14 @@
 </head>
 <body class="text-gray-700 bg-white" style="font-family: 'Poppins', sans-serif">
     <!-- START NAVIGATION -->
-    <nav>
+    <nav class="fixed top-0 left-0 w-full bg-white">
         <div class="container mx-auto px-6 py-5 flex justify-between items-center">
             <a class="font-bold text-3xl lg:text-4xl" href="#">
-                GBM Contracting
+                GBM Contracting Group
             </a>
             <div class="block lg:hidden">
-                <button class="flex items-center justify-center px-3 py-2 border rounded-md text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none transition">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                <button class="flex items-center justify-center px-3 py-2 border rounded-md text-gray-500 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none transition border-none mobile-menu-btn">
+                    <svg class="fill-current h-5 w-5" viewBox="0 0 20 20">
                         <title>Menu</title>
                         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                     </svg>
@@ -42,6 +42,12 @@
                     <li class="bg-gray-800 text-white font-bold rounded-md py-2 px-2 shadow-lg uppercase tracking-wider hover:bg-white hover:text-black transition"><a class="px-4" href="#">Contact</a></li>
                 </ul>
             </div>
+        </div>
+        <!-- MOBILE NAV -->
+        <div class="hidden mobile-menu bg-white fixed right-0 px-8 py-4">
+            <a class="block my-4 mx-4 hover:font-semibold" href="#">Home</a>
+            <a class="block my-4 mx-4 hover:font-semibold" href="#">Gallery</a>
+            <a class="bg-gray-800 text-white font-bold rounded-md py-2 px-2 shadow-lg uppercase tracking-wider hover:bg-white hover:text-black transition block w-[150px] text-center hover:border-black border-transparent border-2    " href="#">Contact</a>
         </div>
     </nav>
     <!-- END NAVIGATION -->
@@ -143,5 +149,8 @@
         </div>
     </section>
     <!-- END CTA -->
+
+    <!-- SCRIPTS -->
+    <script src="./index.js" type="text/javascript"></script>
 </body>
 </html>
